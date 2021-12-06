@@ -24,7 +24,7 @@ def simulate_day(all_fish):
 
     return old_fish + new_fish
 
-for day in range(256):
+for day in range(80):
     all_fish = simulate_day(all_fish)
 
 total_nr_fish = 0

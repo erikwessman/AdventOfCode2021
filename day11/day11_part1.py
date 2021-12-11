@@ -38,12 +38,6 @@ def count_and_reset_flashes():
                 energy_levels[y][x][1] = False
     return flashes
 
-def print_energy():
-    for y in range(height):
-        for x in range(width):
-            print(str(energy_levels[y][x][0]) + ' ', end = '')
-        print('')
-
 for i in range(steps):
     increment_energy_levels()
 

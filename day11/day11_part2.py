@@ -43,12 +43,6 @@ def reset_flashes():
             if energy_levels[y][x][1] == True:
                 energy_levels[y][x][1] = False
 
-def print_energy():
-    for y in range(height):
-        for x in range(width):
-            print(str(energy_levels[y][x][0]) + ' ', end = '')
-        print('')
-
 while True:
     step += 1
     increment_energy_levels()
